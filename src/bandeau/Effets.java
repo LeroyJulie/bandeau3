@@ -7,7 +7,7 @@ package bandeau;
 
 /**
  *
- * @author njacomi
+ * @author jleroy
  */
 public abstract class Effets {
 

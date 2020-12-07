@@ -20,7 +20,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author njacomi
+ * @author jleroy
  */
 public class Bandeau {
 
@@ -79,23 +79,7 @@ public class Bandeau {
             }
         }
 
-        public void paint(Graphics g) {
-            super.paint(g);
-            Rectangle r = getBounds();
-            Graphics2D g2 = (Graphics2D) g;
-            g2.setRenderingHints(ANTIALIASING);
-            g2.setTransform(INDENTITYTRANSFORM);
-            g2.setColor(getBackground());
-            g2.fillRect(r.x, r.y, r.width, r.height);
-            g2.rotate(myRotation, r.getCenterX(), r.getCenterY());
-            g2.setColor(getForeground());
-            setFont(getFont());
-            FontMetrics m = getFontMetrics(getFont());
-            Rectangle rect = m.getStringBounds(myMessage, g).getBounds();
-            int x = (r.width - rect.width) / 2;
-            int y = (r.height - rect.height) / 2;
-            g2.drawString(myMessage, x, y + rect.height / 2);
-        }
+        
     }
 
     private final BannerPanel myPanel;

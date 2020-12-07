@@ -9,7 +9,7 @@ import java.awt.Color;
 
 /**
  *
- * @author njacomi
+ * @author jleroy
  */
 public class Changement_fond extends Effets {
 

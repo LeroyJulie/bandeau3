@@ -7,7 +7,7 @@ package bandeau;
 
 /**
  *
- * @author njacomi
+ * @author jleroy
  */
 public class Rotation extends Effets {
 

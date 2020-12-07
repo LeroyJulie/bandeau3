@@ -10,7 +10,7 @@ import java.awt.Font;
 
 /**
  *
- * @author njacomi
+ * @author jleroy
  */
 public class Main {
 
@@ -25,11 +25,11 @@ public class Main {
         Color back = monBandeau.getBackground();
         Color fore = monBandeau.getForeground();
 
-        monBandeau.setMessage("Bonjour");
+        monBandeau.setMessage("Je veux une bonne note");
         Scenario monScenario = new Scenario();
 
         Clignotant cl = new Clignotant(5, monBandeau);
-        Rotation rt = new Rotation(2, monBandeau);
+        Rotation rt = new Rotation(5, monBandeau);
         Zoom zm = new Zoom(10, monBandeau);
         Changement_fond cf = new Changement_fond(5, monBandeau);
 

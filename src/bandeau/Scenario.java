@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  *
- * @author njacomi
+ * @author jleroy
  */
 public class Scenario {
 
